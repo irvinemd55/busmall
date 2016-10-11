@@ -3,7 +3,7 @@ body {
   height: auto;
   font-family: Helvetica, sans-serif;
   max-width: 960px;
-}
+  }
 
 header {
   color: black;
@@ -11,8 +11,9 @@ header {
   padding: 10px 2px;
   text-align: center;
 }
-.three-pics {
-al
+#three-pics {
+text-align: center;
+margin-top: 50px;
 }
 
 p {
@@ -21,4 +22,9 @@ p {
 
 img {
   max-height: 180px;
+  max-width: 150px;
+}
+button{
+  display: block;
+  margin: auto;
 }
